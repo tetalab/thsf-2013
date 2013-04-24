@@ -40,6 +40,8 @@ body {
 
 #home .sidebar-nav ul.right {
   list-style-image: url('../img/home_list_right.png');
+  position:relative;
+  right:35px;
 }
 
 #home .sidebar-nav ul li {
