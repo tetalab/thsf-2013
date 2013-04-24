@@ -36,6 +36,9 @@ body {
   font-size:30pt;
   font-family: 'Veneer', sans-serif;
   list-style-image: url('../img/home_list_left.png');
+}
+
+#home .sidebar-nav ul.left {
   position:relative;
   left:10px;
 }
@@ -43,7 +46,7 @@ body {
 #home .sidebar-nav ul.right {
   list-style-image: url('../img/home_list_right.png');
   position:relative;
-  right:45px;
+  right:35px;
 }
 
 #home .sidebar-nav ul li {
