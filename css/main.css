@@ -36,12 +36,14 @@ body {
   font-size:30pt;
   font-family: 'Veneer', sans-serif;
   list-style-image: url('../img/home_list_left.png');
+  position:relative;
+  left:10px;
 }
 
 #home .sidebar-nav ul.right {
   list-style-image: url('../img/home_list_right.png');
   position:relative;
-  right:35px;
+  right:45px;
 }
 
 #home .sidebar-nav ul li {
