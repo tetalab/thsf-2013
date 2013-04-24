@@ -4,16 +4,73 @@
    Author's custom styles
    ========================================================================== */
 
-body {
-  background: #eee2c1;
+@font-face {
+  font-family: 'Veneer';
+  src: url('fonts/Veneer.ttf')  format('truetype');
 }
 
+@font-face {
+  font-family: 'ThirstyScriptBold';
+  src: url('fonts/ThirstyScriptBold.otf');
+}
 
+body {
+  background: #eee2c1;
+  margin: 0;
+  padding: 0;
+}
 
+#home {
+  margin: 30px 0px;
+  padding: 10px 0px;
+  border-top: 1px dashed #333;
+  border-bottom: 1px dashed #333;
+}
 
+#home .sidebar-nav {
+  position:relative;
+  top:220px;
+}
 
+#home .sidebar-nav ul {
+  font-size:30pt;
+  font-family: 'Veneer', sans-serif;
+  list-style-image: url('../img/home_list_left.png');
+}
 
+#home .sidebar-nav ul.right {
+  list-style-image: url('../img/home_list_right.png');
+}
 
+#home .sidebar-nav ul li {
+  line-height:40pt;
+}
+
+#home .sidebar-nav ul li a {
+  color: #3a2b39;
+  position: relative;
+  top: -7px;
+  text-decoration: none;
+}
+
+#home .sidebar-nav ul li a span {
+  color: #e31e2d;
+}
+
+#home #partenariat {
+  color: #3e2b39;
+  font-family: 'ThirstyScriptBold', sans-serif;
+  font-size:25pt;
+  font-weight:bold;
+  line-height:30pt;
+}
+
+#home #date {
+  color: #e31e2d;
+  font-size:40pt;
+  font-family: 'Veneer', sans-serif;
+  line-height:30pt;
+}
 
 
 
