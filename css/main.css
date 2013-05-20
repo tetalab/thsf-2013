@@ -1,5 +1,4 @@
 
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -34,7 +33,7 @@ body {
 
 #home .sidebar-nav ul {
   font-size:30pt;
-  font-family: 'Veneer', sans-serif;
+  font-family: 'Veneer', Impact, sans-serif;
   list-style-image: url('../img/home_list_left.png');
 }
 
