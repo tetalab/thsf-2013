@@ -63,13 +63,20 @@ body {
   color: #e31e2d;
 }
 
-#home #partenariat,
-#home #address {
+#home #partenariat {
   color: #3e2b39;
   font-family: 'ThirstyScriptBold', sans-serif;
   font-size:25pt;
   font-weight:bold;
   line-height:30pt;
+}
+
+#home #address a {
+  color: #3e2b39;
+  font-family: 'ThirstyScriptBold', sans-serif;
+  font-size:20pt;
+  font-weight:bold;
+  line-height:25
 }
 
 #home #date {
